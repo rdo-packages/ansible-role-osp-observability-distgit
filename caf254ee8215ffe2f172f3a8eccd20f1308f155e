@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "6d41d73f_b1058d9c",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 718
+      },
+      "writtenOn": "2022-11-29T20:35:14Z",
+      "side": 1,
+      "message": "recheck\n\nCreated 0.0.1 tag in upstream",
+      "revId": "caf254ee8215ffe2f172f3a8eccd20f1308f155e",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7"
+    }
+  ]
+}
