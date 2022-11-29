@@ -1,0 +1,44 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "c2fef8fd_3e3fbcb7",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 718
+      },
+      "writtenOn": "2022-11-29T12:58:58Z",
+      "side": 1,
+      "message": "In the failing DLRN-rpmbuild-centos9 job, the version has been set to 0.0.1, which guarantees failure, since we don\u0027t have a 0.0.1 version yet.\n\nHow do we set the subsequent versions for this package? It was set to 0.0.1 here without any action from me, so I would like to know where that version value came from so we can continue to update this as the upstream development progresses\n",
+      "revId": "2db2c687439c12df0774b8aa1a6baa7fb1de11af",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "e3ec87fa_57c79010",
+        "filename": "ansible-role-osp-observability.spec",
+        "patchSetId": 1
+      },
+      "lineNbr": 7,
+      "author": {
+        "id": 718
+      },
+      "writtenOn": "2022-11-29T12:58:58Z",
+      "side": 1,
+      "message": "These two will change, currently, we need to use master until there\u0027s a tagged release",
+      "range": {
+        "startLine": 6,
+        "startChar": 16,
+        "endLine": 7,
+        "endChar": 25
+      },
+      "revId": "2db2c687439c12df0774b8aa1a6baa7fb1de11af",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7"
+    }
+  ]
+}
