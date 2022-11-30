@@ -35,6 +35,24 @@
       "serverId": "270e2033-b340-4cff-9539-693957ebf0e7"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "2b0f0cbf_6a729f88",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 718
+      },
+      "writtenOn": "2022-11-30T11:49:41Z",
+      "side": 1,
+      "message": "I don\u0027t think that skipping the rpmlint job is a good idea. \nThe rpmlint job depends on the DLRN-rpmbuild job (in this case, its child jobs, I assume) [1]. \nThe dependencies should probably be the other way around.\n\nRunning the rpmlint job first would have helped avoid the failures I saw in Zuul, which were picked up by rpmlint. \n\n[1] https://review.rdoproject.org/cgit/rdo-jobs/tree/zuul.d/jobs.yaml#n183",
+      "parentUuid": "058236da_62d4b7f0",
+      "revId": "caf254ee8215ffe2f172f3a8eccd20f1308f155e",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "9e361d27_688ad8ec",
