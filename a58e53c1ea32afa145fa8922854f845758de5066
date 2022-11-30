@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "1f6cdc1b_73e04370",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 4
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 718
+      },
+      "writtenOn": "2022-11-30T12:32:16Z",
+      "side": 1,
+      "message": "\u003e Patch Set 4: Verified-1\n\u003e \n\u003e Build failed.\n\u003e \n\u003e - rdopkg-reqcheck https://review.rdoproject.org/zuul/build/2252aeceb9a5444fa5556cc21e4fd220 : SUCCESS in 1m 42s (non-voting)\n\u003e - rpmlint https://review.rdoproject.org/zuul/build/bfa56cb84263482ab1fe342fffadc622 : SKIPPED\n\u003e - DLRN-build-tripleo-centos9 https://review.rdoproject.org/zuul/build/e68fc46de5684fd09e169f7cbccd7927 : SKIPPED (non-voting)\n\u003e - DLRN-rpmbuild-centos9 https://review.rdoproject.org/zuul/build/8d9d9acf60d04c96ae382c596ae3f459 : FAILURE in 4m 30s\n\n\n2022-11-30 12:03:11,461 INFO:dlrn-build-mock:DEBUG: + rm -rf osp-observability-ansible-0.0.1\n2022-11-30 12:03:11,463 INFO:dlrn-build-mock:DEBUG: + /usr/bin/gzip -dc /builddir/build/SOURCES/0.0.1-0.20221130120141.c432f9a.tar.gz\n2022-11-30 12:03:11,463 INFO:dlrn-build-mock:DEBUG: + /usr/bin/tar -xof -\n2022-11-30 12:03:11,469 INFO:dlrn-build-mock:DEBUG: + STATUS\u003d0\n2022-11-30 12:03:11,469 INFO:dlrn-build-mock:DEBUG: + \u0027[\u0027 0 -ne 0 \u0027]\u0027\n2022-11-30 12:03:11,469 INFO:dlrn-build-mock:DEBUG: + cd osp-observability-ansible-0.0.1\n2022-11-30 12:03:11,469 INFO:dlrn-build-mock:DEBUG: /var/tmp/rpm-tmp.AqGcBx: line 39: cd: osp-observability-ansible-0.0.1: No such file or directory\n2022-11-30 12:03:11,469 INFO:dlrn-build-mock:DEBUG: RPM build errors:\n2022-11-30 12:03:11,469 INFO:dlrn-build-mock:DEBUG: error: Bad exit status from /var/tmp/rpm-tmp.AqGcBx (%prep)\n2022-11-30 12:03:11,469 INFO:dlrn-build-mock:DEBUG:     Bad exit status from /var/tmp/rpm-tmp.AqGcBx (%prep)\n\n\nI need to adjust the version being passed through somewhere. \n",
+      "revId": "a58e53c1ea32afa145fa8922854f845758de5066",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7"
+    }
+  ]
+}
