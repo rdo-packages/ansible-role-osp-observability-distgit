@@ -16,6 +16,46 @@
       "message": "recheck\n\nCreated 0.0.1 tag in upstream",
       "revId": "caf254ee8215ffe2f172f3a8eccd20f1308f155e",
       "serverId": "270e2033-b340-4cff-9539-693957ebf0e7"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "9e361d27_688ad8ec",
+        "filename": "ansible-role-osp-observability.spec",
+        "patchSetId": 3
+      },
+      "lineNbr": 24,
+      "author": {
+        "id": 718
+      },
+      "writtenOn": "2022-11-30T11:29:11Z",
+      "side": 1,
+      "message": "I was searching for some macro definitions, and found some helpful packaging guidelines from fedora, which detail some ansible-collection macros, which might make this more maintainable.\n\nhttps://docs.fedoraproject.org/en-US/packaging-guidelines/Ansible_collections/",
+      "revId": "caf254ee8215ffe2f172f3a8eccd20f1308f155e",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "1179ace7_5623738d",
+        "filename": "ansible-role-osp-observability.spec",
+        "patchSetId": 3
+      },
+      "lineNbr": 31,
+      "author": {
+        "id": 718
+      },
+      "writtenOn": "2022-11-30T11:29:11Z",
+      "side": 1,
+      "message": "This line needs to be removed. I was checking that the sub-dirs were included, but listing a file more than once creates a warning in the build",
+      "range": {
+        "startLine": 31,
+        "startChar": 0,
+        "endLine": 31,
+        "endChar": 1
+      },
+      "revId": "caf254ee8215ffe2f172f3a8eccd20f1308f155e",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7"
     }
   ]
 }
