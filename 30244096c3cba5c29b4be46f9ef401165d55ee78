@@ -51,6 +51,23 @@
       "parentUuid": "4c82543d_85e2abaa",
       "revId": "30244096c3cba5c29b4be46f9ef401165d55ee78",
       "serverId": "270e2033-b340-4cff-9539-693957ebf0e7"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "27d22e1f_a58c98aa",
+        "filename": "ansible-role-osp-observability.spec",
+        "patchSetId": 7
+      },
+      "lineNbr": 18,
+      "author": {
+        "id": 757
+      },
+      "writtenOn": "2022-12-01T15:08:11Z",
+      "side": 1,
+      "message": "wrt version - dlrn is not building current one (0.0.1) but pre-release of next potential version (in simplification).\n\nwrt the name - the argument refers to module name inside src.rpm. you can check that by inspecting srpm built by dlrn: https://logserver.rdoproject.org/73/46273/7/check/DLRN-rpmbuild-centos9/52d8461/buildset/centos9/repos/a7/83/a78322815d38aaabc3b6e897b3138ad8515238a6_dev/ansible-osp-observability-0.0.2-0.20221201131846.a783228.el9.src.rpm, and it\u0027s ansible-role-osp-observability-0.0.2",
+      "revId": "30244096c3cba5c29b4be46f9ef401165d55ee78",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7"
     }
   ]
 }
