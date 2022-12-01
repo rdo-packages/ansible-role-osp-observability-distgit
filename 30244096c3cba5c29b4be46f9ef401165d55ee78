@@ -86,6 +86,24 @@
       "parentUuid": "27d22e1f_a58c98aa",
       "revId": "30244096c3cba5c29b4be46f9ef401165d55ee78",
       "serverId": "270e2033-b340-4cff-9539-693957ebf0e7"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "43ade377_35f0aec5",
+        "filename": "ansible-role-osp-observability.spec",
+        "patchSetId": 7
+      },
+      "lineNbr": 18,
+      "author": {
+        "id": 718
+      },
+      "writtenOn": "2022-12-01T18:53:09Z",
+      "side": 1,
+      "message": "I have an open review at [1], which also has a source at github, and also has a tag of 0.0.1, but that built correctly, and had the correct 0.0.1 version.\n\n[1] https://review.rdoproject.org/r/c/openstack/observabilityclient-distgit/+/46294",
+      "parentUuid": "4d36f97c_ed22d8ac",
+      "revId": "30244096c3cba5c29b4be46f9ef401165d55ee78",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7"
     }
   ]
 }
