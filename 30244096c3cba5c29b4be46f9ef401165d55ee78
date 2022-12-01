@@ -33,6 +33,24 @@
       "message": "the name of module is not correct, that\u0027s why it can\u0027t be find. Try \n%autosetup -n ansible-role-osp-observability-%{upstream_version} -S git",
       "revId": "30244096c3cba5c29b4be46f9ef401165d55ee78",
       "serverId": "270e2033-b340-4cff-9539-693957ebf0e7"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "ec99812d_34255eae",
+        "filename": "ansible-role-osp-observability.spec",
+        "patchSetId": 7
+      },
+      "lineNbr": 18,
+      "author": {
+        "id": 718
+      },
+      "writtenOn": "2022-12-01T14:47:50Z",
+      "side": 1,
+      "message": "The version is being set to 0.0.2, that is why it isn\u0027t building correctly.\n\nThe name is correct and builds locally. The parameter for autosetup is the name of the downloaded tar file, which is correct in this case.\n\nansible-role-osp-observability doesn\u0027t appear in the specfile, except as the filename.",
+      "parentUuid": "4c82543d_85e2abaa",
+      "revId": "30244096c3cba5c29b4be46f9ef401165d55ee78",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7"
     }
   ]
 }
