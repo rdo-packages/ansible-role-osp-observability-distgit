@@ -67,6 +67,24 @@
       "message": "don\u0027t forget to fulfill the changelog in proper format",
       "revId": "f82790d8a045e210e43ca2fdc0a4382df3bc8833",
       "serverId": "270e2033-b340-4cff-9539-693957ebf0e7"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "efbd18fa_473b607e",
+        "filename": "ansible-role-osp-observability.spec",
+        "patchSetId": 6
+      },
+      "lineNbr": 31,
+      "author": {
+        "id": 757
+      },
+      "writtenOn": "2022-12-01T14:48:27Z",
+      "side": 1,
+      "message": "sorry, in this case changelog should be empty",
+      "parentUuid": "cf6dfc1a_0db15881",
+      "revId": "f82790d8a045e210e43ca2fdc0a4382df3bc8833",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7"
     }
   ]
 }
