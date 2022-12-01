@@ -20,6 +20,23 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "a2193e08_43d58fb8",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 6
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 718
+      },
+      "writtenOn": "2022-12-01T12:33:17Z",
+      "side": 1,
+      "message": "\u003e Patch Set 6: Verified-1\n\u003e \n\u003e Build failed.\n\u003e \n\u003e - rdopkg-reqcheck https://review.rdoproject.org/zuul/build/a34d88fb13574664b7b4761298939ae4 : SUCCESS in 1m 41s (non-voting)\n\u003e - rpmlint https://review.rdoproject.org/zuul/build/b404c7655836405eab825665e437634b : SKIPPED\n\u003e - DLRN-build-tripleo-centos9 https://review.rdoproject.org/zuul/build/69e7950d3bfd4bbbad73f69b9f1d4b9e : SKIPPED (non-voting)\n\u003e - DLRN-rpmbuild-centos9 https://review.rdoproject.org/zuul/build/f351315359214c08b10021546e646ab2 : FAILURE in 4m 17s\n\nWhy is delorean still using 0.0.2 as the version?",
+      "revId": "f82790d8a045e210e43ca2fdc0a4382df3bc8833",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "b6a345a0_d4436b44",
         "filename": "ansible-role-osp-observability.spec",
         "patchSetId": 6
