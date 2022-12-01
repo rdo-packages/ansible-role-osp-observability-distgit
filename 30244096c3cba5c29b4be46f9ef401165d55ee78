@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "061981ef_6a94a251",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 7
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 757
+      },
+      "writtenOn": "2022-12-01T12:49:11Z",
+      "side": 1,
+      "message": "Maybe it would be useful to you to test building your package locally with DLRN. There is doc https://www.rdoproject.org/documentation/package-building-overview/, in \"Debugging with DLRN\" section.",
+      "revId": "30244096c3cba5c29b4be46f9ef401165d55ee78",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7"
+    }
+  ]
+}
