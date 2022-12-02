@@ -122,6 +122,24 @@
       "parentUuid": "43ade377_35f0aec5",
       "revId": "30244096c3cba5c29b4be46f9ef401165d55ee78",
       "serverId": "270e2033-b340-4cff-9539-693957ebf0e7"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "d556fa9e_da0a5c59",
+        "filename": "ansible-role-osp-observability.spec",
+        "patchSetId": 7
+      },
+      "lineNbr": 18,
+      "author": {
+        "id": 718
+      },
+      "writtenOn": "2022-12-02T12:32:08Z",
+      "side": 1,
+      "message": "Thanks Alfredo, karolinku. \nThe version is resolved, but I\u0027m still confused about where the name comes from for the tarball. I changed the name per karolinku\u0027s suggestion, and it worked. Thank you for the suggestion, sorry I disregarded it earlier).",
+      "parentUuid": "43ade377_35f0aec5",
+      "revId": "30244096c3cba5c29b4be46f9ef401165d55ee78",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7"
     }
   ]
 }
