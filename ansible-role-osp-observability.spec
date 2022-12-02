@@ -1,6 +1,9 @@
 %global srcname osp_observability_ansible
 %{!?upstream_version: %global upstream_version %{version}%{?milestone}}
 %global tarsources osp-observability-ansible
+# Required for ansible_collection_* macros
+%global collection_name osp_observability
+%global collection_namespace infrawatch
 
 Name:           ansible-osp-observability
 Version:        XXX
@@ -13,6 +16,7 @@ Source0:        https://github.com/infrawatch/osp-observability-ansible/archive/
 BuildArch:      noarch
 
 BuildRequires:  git-core
+BuildRequires:  (python3dist(ansible) or ansible-core)
 
 Requires:       (python3dist(ansible) or ansible-core)
 
@@ -23,15 +27,15 @@ Ansible collection for deploying observability components with TripleO
 %autosetup -n ansible-role-osp-observability-%{upstream_version} -S git
 
 %build
+%{ansible_collection_build}
 
 %install
-mkdir -p %{buildroot}%{_datadir}/ansible/collections/ansible_collections/infrawatch
-cp -r ./* %{buildroot}%{_datadir}/ansible/collections/ansible_collections/infrawatch
+%{ansible_collection_install}
 
 %files
 %doc README*
 %license LICENSE
-%{_datadir}/ansible/collections/ansible_collections/infrawatch/
+%{ansible_collection_files}
 
 %changelog
 
