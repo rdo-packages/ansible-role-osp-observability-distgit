@@ -104,6 +104,24 @@
       "parentUuid": "4d36f97c_ed22d8ac",
       "revId": "30244096c3cba5c29b4be46f9ef401165d55ee78",
       "serverId": "270e2033-b340-4cff-9539-693957ebf0e7"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "f482f5d1_58542fe2",
+        "filename": "ansible-role-osp-observability.spec",
+        "patchSetId": 7
+      },
+      "lineNbr": 18,
+      "author": {
+        "id": 128
+      },
+      "writtenOn": "2022-12-02T09:11:05Z",
+      "side": 1,
+      "message": "Let me explain how dlrn builds work so you understand better the release-version. The goal of dlrn is to build every commit of a branch in the repo. By default is building latest commit in master head, independently of what is in Version field, that\u0027s why we set XXX in version and release and we leave dlrn to set them. Currently, master head is 0.0.1 tag + two commits. That\u0027s actually not 0.0.1 but a post-release of 0.0.1. DLRN interprets that as a pre-release of a newer minor 0.0.2 so it follows standard release-version for post-releases, which is 0.0.2-0.xxxx (note the 0 in release). This way dlrn ensures that a package based on a post-release commit would update a -0.0.1-x if it exist. Note that dlrn creates the tarball itself with that release, so it\u0027s able to handle it.",
+      "parentUuid": "43ade377_35f0aec5",
+      "revId": "30244096c3cba5c29b4be46f9ef401165d55ee78",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7"
     }
   ]
 }
