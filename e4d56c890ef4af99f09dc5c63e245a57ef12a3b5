@@ -16,6 +16,24 @@
       "message": "spec file lgtm, but before I start review I need to ask about package content. Are you sure about the content, which will be shipped in that package? I mean like locating roles in collection directory?\nYou can inspect that by using \"rpm -qlp https://logserver.rdoproject.org/73/46273/10/check/DLRN-rpmbuild-centos9/fb7c198/buildset/centos9/current/ansible-osp-observability-0.0.2-0.20221202175136.a783228.el9.noarch.rpm\".",
       "revId": "e4d56c890ef4af99f09dc5c63e245a57ef12a3b5",
       "serverId": "270e2033-b340-4cff-9539-693957ebf0e7"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "89f7bbee_7473e018",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 10
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 718
+      },
+      "writtenOn": "2022-12-05T18:04:44Z",
+      "side": 1,
+      "message": "What is the typical location for the role files installed from a collection? The location here is based on where they are put with ansible-galaxy collection build and ansible-galaxy collection install",
+      "parentUuid": "c34febd6_9231b400",
+      "revId": "e4d56c890ef4af99f09dc5c63e245a57ef12a3b5",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7"
     }
   ]
 }
