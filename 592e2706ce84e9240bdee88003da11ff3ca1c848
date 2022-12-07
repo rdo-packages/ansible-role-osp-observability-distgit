@@ -1,0 +1,38 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "733256ed_07ae409f",
+        "filename": "ansible-role-osp-observability.spec",
+        "patchSetId": 11
+      },
+      "lineNbr": 1,
+      "author": {
+        "id": 757
+      },
+      "writtenOn": "2022-12-07T09:36:38Z",
+      "side": 1,
+      "message": "this var like also tarsources in L3 is unused. It can be removed, or rest of spec file can be adjusted.",
+      "revId": "592e2706ce84e9240bdee88003da11ff3ca1c848",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "b5606cea_bfc252a5",
+        "filename": "ansible-role-osp-observability.spec",
+        "patchSetId": 11
+      },
+      "lineNbr": 3,
+      "author": {
+        "id": 757
+      },
+      "writtenOn": "2022-12-07T09:36:38Z",
+      "side": 1,
+      "message": "ditto - unused variable",
+      "revId": "592e2706ce84e9240bdee88003da11ff3ca1c848",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7"
+    }
+  ]
+}
