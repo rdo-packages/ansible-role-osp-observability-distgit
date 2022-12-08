@@ -34,6 +34,24 @@
       "parentUuid": "1cb59f76_3ab46c19",
       "revId": "a64aaf7e117cd5bf3ff77fe35684b0375eed1b85",
       "serverId": "270e2033-b340-4cff-9539-693957ebf0e7"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "c6028777_75a078c1",
+        "filename": "ansible-role-osp-observability.spec",
+        "patchSetId": 13
+      },
+      "lineNbr": 28,
+      "author": {
+        "id": 718
+      },
+      "writtenOn": "2022-12-08T15:51:50Z",
+      "side": 1,
+      "message": "I am following some fedora guidelines for specfiles. In this case, I\u0027m using galaxy macros because we don\u0027t have any python modules written, the roles we\u0027re trying to distribute are written in ansible, so setup.py and pbr don\u0027t make sense in this case.  \nThe ansible-collections-openstack package has a bunch of python modules in it, so using setp.py and pbr makes sense there.\n\nI have a PR open upstream to remove the dotfiles in galaxy.yml: https://github.com/infrawatch/osp-observability-ansible/pull/24, so the ditfile and unneeded dirs will disappear once that merges",
+      "parentUuid": "458d22d2_4d051cbc",
+      "revId": "a64aaf7e117cd5bf3ff77fe35684b0375eed1b85",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7"
     }
   ]
 }
